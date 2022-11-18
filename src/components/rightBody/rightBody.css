@@ -1,0 +1,182 @@
+.rightBodybtn {
+    width: 360px;
+    height: 53px;
+    font-size: 16px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    font-weight: bold;
+    border-color: #FF0000;
+}
+
+.rightBodyHead {
+    display: flex;
+}
+
+.rightBodyHead-cont {
+    /* padding: 40px 0px 0px 0px; */
+}
+
+.raised {
+    padding: 10px 0px 0px 15px;
+}
+
+.goal-subcont {
+    display: flex;
+    padding-top: 10px;
+}
+
+.goal {
+    padding-right: 20px;
+}
+
+.goalamt {
+    padding-top: 5px;
+}
+
+.oo {
+    background: #FFFAFA;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 360px;
+}
+
+.ded {
+    padding: 40px 0px 0px 40px;
+}
+
+.sponsor-subcont {
+    display: flex;
+}
+
+.spons-cover {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0px 0px 15px 25px;
+}
+
+.sponsor-cont {
+    padding: 10px 0px 0px 0px;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 280px;
+}
+
+.month {
+    padding: 30px 0px 0px 70px;
+    font-weight: 600;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.sponsoramt {
+    font-size: 18px
+}
+
+.sponsor {
+    font-size: 12px;
+}
+
+.seeMore a {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 13px;
+}
+
+.seeMore-cont {
+    display: flex;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.moreIcon {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.rightBodybtn1 {
+    width: 284px;
+    height: 43.25px;
+    border-radius: 20px;
+    font-size: 13px;
+    background: #FF0000;
+    color: white;
+    font-weight: bold;
+    border-color: #FF0000;
+}
+
+.rightBodybtn2 {
+    width: 284px;
+    height: 43.25px;
+    border-radius: 20px;
+    font-size: 13px;
+    border-color: #FF0000;
+    font-weight: bold;
+    background: white;
+    box-shadow: 7px 0px 14px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightBodybtns {
+    /* padding-left: 40px; */
+}
+
+.rightBodybtn1-cont {
+    padding: 15px 0px 10px 0px;
+}
+
+.gg a {
+    text-decoration: none;
+}
+
+.progress-cont {
+    padding-top: 10px;
+}
+
+.goal-cont {
+    padding-bottom: 30px;
+}
+
+.rightBody-cont {
+    /* padding-left: 50px; */
+    /* border-radius: 50px; */
+}
+
+.qq {
+    /* padding-left: 50px; */
+    /* border-radius: 50px; */
+    padding-top: 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+@media only screen and (max-width: 800px) {
+    .rightBody-cont {
+        /* background: red; */
+    }
+    .qq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.progress-img {
+    width: 290px;
+    height: 8px;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+}
+
+.wage-img {
+    width: 150px;
+    height: 30px;
+}

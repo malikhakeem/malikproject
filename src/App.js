@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LeftbodyHead from "./components/leftbodyHead/leftbodyHead";
+import Leftbodyimgs from "./components/leftbodyimgs/leftbodyimgs";
+import RightBody from "./components/rightBody/rightBody";
+import RightBodyFooter from "./components/rightBody/rightBodyFooter";
+import About from "./components/About/About";
+import Wait from "./components/WaitPeriod/Wait";
+import HouseInfo from "./components/HouseInfo/HouseInfo";
+import Support from "./components/Support/Support";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="home">
+        <div className="left">
+          <LeftbodyHead />
+          <Leftbodyimgs />
+        </div>
+
+        <div className="right">
+          <RightBody />
+          <RightBodyFooter />
+        </div>
+      </div>
+
+      <About />
+      <Wait />
+      <HouseInfo />
+      <Support />
+
+      <Footer />
     </div>
   );
 }

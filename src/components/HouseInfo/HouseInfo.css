@@ -1,0 +1,212 @@
+.house-subcont {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.house-flex {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+/* .house-rw-3 {
+    padding-right: 50px;
+} */
+
+.loves {
+    width: 250px;
+}
+
+.house-description {
+    /* width: 350px; */
+    width: 74.5%;
+    height: auto;
+    font-size: 12px;
+    padding: 10px 0px 10px 10px;
+    background: #D9D9D9;
+    font-weight: 400;
+}
+
+.house-description1 {
+    /* width: 350px; */
+    width: 57.335%;
+    height: auto;
+    font-size: 12px;
+    padding: 10px 0px 10px 10px;
+    background: #D9D9D9;
+    font-weight: 400;
+}
+
+.house-description-spec {
+    /* width: 350px;
+    height: 54px;
+    padding: 10px 0px 0px 20px;
+    background: #D9D9D9;
+    font-weight: 400;
+    font-size: 14px; */
+    /* width: 350px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 70%;
+    height: auto;
+    font-size: 12px;
+    /* padding: 10px 92px 10px 10px; */
+    background: #D9D9D9;
+    font-weight: 400;
+}
+
+.house-description-to {
+    /* width: 350px; */
+    width: 74.5%;
+    height: auto;
+    font-size: 12px;
+    padding: 10px 0px 10px 10px;
+    background: #D9D9D9;
+    font-weight: 400;
+}
+
+.pr {
+    width: 70%;
+    padding: 10px 0px 10px 10px;
+}
+
+.house-info-spec {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFF4F4;
+    padding: 10px 0px 10px 10px;
+    background: #866A6A;
+    width: 146px;
+    /* height: 32px; */
+}
+
+.house-info-to {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFF4F4;
+    padding: 18px 0px 18px 10px;
+    width: 181.18px;
+    /* height: 32px; */
+    /* width: 30%;
+    height: 32px; */
+    background: #866A6A;
+    /* height: 32px; */
+}
+
+.house-info {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFF4F4;
+    padding: 10px 0px 10px 10px;
+    width: 160px;
+    /* height: 32px; */
+    /* width: 30%;
+    height: 32px; */
+    background: #866A6A;
+}
+
+.house-info2 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFF4F4;
+    padding: 10px 0px 10px 10px;
+    width: 181.8px;
+    /* height: 32px; */
+    /* width: 30%;
+    height: 32px; */
+    background: #866A6A;
+}
+
+.house-cont {
+    padding-bottom: 150px;
+}
+
+@media (max-width: 1170px) {
+    .house-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .house-rw-9 {
+        padding-top: 100px;
+    }
+    /* .house-rw-2 {
+        padding-top: 100px;
+    } */
+    .house-description-to {
+        /* width: 350px; */
+        width: 74.5%;
+        height: auto;
+        font-size: 12px;
+        padding: 10px 0px 10px 10px;
+        background: #D9D9D9;
+        font-weight: 400;
+    }
+    .house-info-to {
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFF4F4;
+        padding: 18px 0px 18px 10px;
+        width: 181.18px;
+        /* height: 32px; */
+        /* width: 30%;
+    height: 32px; */
+        background: #866A6A;
+        /* height: 32px; */
+    }
+    .house-info {
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFF4F4;
+        padding: 10px 0px 10px 10px;
+        width: 160px;
+        /* height: 32px; */
+        /* width: 30%;
+    height: 32px; */
+        background: #866A6A;
+    }
+    .house-info2 {
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFF4F4;
+        padding: 10px 0px 10px 10px;
+        width: 181.18px;
+        /* height: 32px; */
+        /* width: 30%;
+    height: 32px; */
+        background: #866A6A;
+    }
+}
+
+.house-rw-8 {
+    padding-top: 100px;
+}
+
+@media (max-width: 820px) {
+    .house-subcont {
+        /* background: red; */
+    }
+    /* .house-rw-1 {
+        padding-left: 0px;
+    }
+    .house-rw-2 {
+        padding-right: 80px;
+    } */
+}
+
+@media (max-width: 800px) {
+    .house-subcont {
+        /* background: red; */
+    }
+    /* .house-rw-1 {
+        padding-left: 50px;
+    }
+    /* .house-rw-2 {
+        padding-right: 0px;
+    } */
+    /* .house-rw-2 {
+        padding-right: 0px;
+    } */
+}

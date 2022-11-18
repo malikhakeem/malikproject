@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.leftFooter-subcont {
+    display: flex;
+}
+
+
+/* ` */
+
+.leftFooter-1 {
+    display: flex;
+    background-color: #E4FAFF;
+    padding: 20px 45px 20px 20px;
+    border-radius: 15px;
+}
+
+.leftFooter-2 {
+    display: flex;
+    background-color: #DEE1E2;
+    padding: 20px 45px 20px 20px;
+    border-radius: 15px;
+}
+
+.leftFooter1-cont {
+    /* padding: 5px; */
+    padding-right: 10px;
+}
+
+.leftFooterTitle1-1 {
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.leftFooterTitle2-2 {
+    font-size: 12px;
+}
+
+.leftFooterTitle1-2 {
+    font-size: 12px;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    background-color: #FF0000;
+    font-size: 12px;
+    border-radius: 47px;
+    border: none;
+    border-color: #FFFFFF;
+}
+
+.leftFooterbtn-cont a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.leftFooterbtn-cont {
+    padding-top: 28px;
+}
+
+.ntn {
+    padding-left: 50px;
+}
+
+.ntn3 {
+    padding-left: 50px;
+}
+
+.ntn2 {
+    position: absolute;
+    padding-left: 35px;
+    padding-top: 40px;
+    /* background: red; */
+}
+
+.leftFooter-cont {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+
+@media (max-width: 850px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .leftbodyimgs-sm-cont {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .leftFooter-subcont {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftFooter-1 {
+        /* display: flex; */
+        justify-content: space-between;
+        background-color: #E4FAFF;
+        margin-bottom: 10px;
+    }
+    .leftFooter-2 {
+        /* display: flex; */
+        justify-content: space-between;
+        background-color: #E4FAFF;
+    }
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.responsive2 {
+    width: 90%;
+    height: auto;
+}
+
+.lg {
+    /* width: 400px;
+    height: 300px; */
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+}
+
+.images-sub {
+    display: flex;
+}
+
+.conta {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    .ntn {
+        display: none;
+    }
+}
