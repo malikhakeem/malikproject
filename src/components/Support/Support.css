@@ -91,13 +91,16 @@
     .support-container {
         /* background: blue; */
     }
+    .support-mid {
+        padding-right: 0px;
+    }
     .support-subcont {
         display: flex;
         flex-direction: column;
     }
-    .support-subcont {
+    /* .support-subcont {
         padding: 20px 0px 50px 20px;
-    }
+    } */
     .sm-box-2 {
         display: none;
     }
@@ -115,5 +118,26 @@
         align-items: center;
         justify-content: center; */
         /* padding-left: 16px; */
+    }
+    .support-subcont {
+        border-radius: 10px;
+        background: #FF0000;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 50px 50px;
+    }
+    .contact-us-btn {
+        padding: 20px 50px 20px 50px;
+        font-weight: 600;
+        font-size: 15px;
+        color: #4F4F4F;
+        background: white;
+        border-radius: 4px;
+    }
+    .support-contact {
+        padding: 0px 0px 0px 0px;
+    }
+    .support-acct-cont {
+        padding-bottom: 60px;
     }
 }

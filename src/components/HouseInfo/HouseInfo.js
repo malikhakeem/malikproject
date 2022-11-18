@@ -23,7 +23,7 @@ const HouseInfo = () => {
             return (
               <div key={id} className="house-container">
                 <div className="house-flex">
-                  {/* <div className="house-rw-1">
+                  <div className="house-rw-1">
                     <div className="house-subcont">
                       <div className="house-info">House Type:</div>
                       <div className="house-description1">{HouseType}</div>
@@ -62,89 +62,43 @@ const HouseInfo = () => {
                         {DevelopersEquity}
                       </div>
                     </div>
-                  </div> */}
-                  {/* <div className="house-rw-4">
+                  </div>
+                  <div className="house-rw-1">
                     <div className="house-subcont">
-                      <div className="house-info2">House Type:</div>
-                      <div className="house-description">{HouseType}</div>
+                      <div className="house-info-rt">Title:</div>
+                      <div className="house-description-rt">{Title}</div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info2">Cost of development</div>
-                      <div className="house-description">
-                        <span>&#8358;</span>
-                        {CostOfDevelopment}
+                      <div className="house-info-rt">Approvals</div>
+                      <div className="house-description-rt">{Approvals}</div>
+                    </div>
+                    <div className="house-subcont">
+                      <div className="house-info-const">Construction:</div>
+                      <div className="house-description-const">
+                        {Construction}
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info2">Developers Equity:</div>
-                      <div className="house-description">
-                        {DevelopersEquity}
+                      <div className="house-info-rt">Minimum Investment</div>
+                      <div className="house-description-rt">
+                        {MinimumInvestment}
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info2">Funds required</div>
-                      <div className="house-description">{FundsRequired}</div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info-to">
-                        Sales price per apartment:
-                      </div>
-                      <div className="house-description-to">
-                        <div className="loves">
-                          <span>&#8358;</span>
-                          {SalesPricePerApartment}
-                        </div>
+                      <div className="house-info-dian">Custodian:</div>
+                      <div className="house-description-dian">
+                        {CustodianBank}
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info2">Developers Equity:</div>
-                      <div className="house-description">
-                        {DevelopersEquity}
+                      <div className="house-info-rt">Legal Advisory:</div>
+                      <div className="house-description-rt">
+                        {LegalAdvisory}
                       </div>
                     </div>
                   </div>
-                  <div className="house-rw-8">
-                    <div className="house-subcont">
-                      <div className="house-info2">House Type:</div>
-                      <div className="house-description">{HouseType}</div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info2">Cost of development</div>
-                      <div className="house-description">
-                        <span>&#8358;</span>
-                        {CostOfDevelopment}
-                      </div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info2">Developers Equity:</div>
-                      <div className="house-description">
-                        {DevelopersEquity}
-                      </div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info2">Funds required</div>
-                      <div className="house-description">{FundsRequired}</div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info-to">
-                        Sales price per apartment:
-                      </div>
-                      <div className="house-description-to">
-                        <div className="loves">
-                          <span>&#8358;</span>
-                          {SalesPricePerApartment}
-                        </div>
-                      </div>
-                    </div>
-                    <div className="house-subcont">
-                      <div className="house-info2">Developers Equity:</div>
-                      <div className="house-description">
-                        {DevelopersEquity}
-                      </div>
-                    </div>
-                  </div> */}
 
-                  <div className="house-rw-2">
+                  {/* <div className="house-rw-2">
                     <div className="house-subcont">
                       <div className="house-info">Title:</div>
                       <div className="house-description">{Title}</div>
@@ -175,7 +129,7 @@ const HouseInfo = () => {
                       <div className="house-description">{LegalAdvisory}</div>
                     </div>
                   </div>
-                  <div className="house-rw-9">
+                  <div className="house-rw-">
                     <div className="house-subcont">
                       <div className="house-info">Title:</div>
                       <div className="house-description">{Title}</div>
@@ -205,7 +159,7 @@ const HouseInfo = () => {
                       <div className="house-info">Legal Advisory</div>
                       <div className="house-description">{LegalAdvisory}</div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             );
