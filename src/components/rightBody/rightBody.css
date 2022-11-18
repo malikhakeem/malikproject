@@ -164,6 +164,23 @@
         justify-content: center;
         align-items: center;
     }
+    .rightBodybtn {
+        width: 330px;
+        height: 53px;
+        font-size: 16px;
+        background: #FF0000;
+        color: #FFFFFF;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        font-weight: bold;
+        border-color: #FF0000;
+    }
+    .oo {
+        width: 330px;
+    }
+    .ded {
+        padding: 40px 0px 0px 25px;
+    }
 }
 
 .progress-img {
