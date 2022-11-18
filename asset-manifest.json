@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/malikproject/static/css/main.635f3c7c.css",
+    "main.js": "/malikproject/static/js/main.6211ed93.js",
+    "static/media/Screenshot 2022.png": "/malikproject/static/media/Screenshot 2022.7330671fe6836157b5ea.png",
+    "static/media/Group 1000004766.png": "/malikproject/static/media/Group 1000004766.b7f6c8560922f7d306f9.png",
+    "static/media/slick.svg": "/malikproject/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/malikproject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/malikproject/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/malikproject/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/malikproject/index.html",
+    "main.635f3c7c.css.map": "/malikproject/static/css/main.635f3c7c.css.map",
+    "main.6211ed93.js.map": "/malikproject/static/js/main.6211ed93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.635f3c7c.css",
+    "static/js/main.6211ed93.js"
+  ]
+}
