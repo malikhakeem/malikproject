@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/malikproject/static/css/main.528f7b04.css",
-    "main.js": "/malikproject/static/js/main.b9ab99fc.js",
+    "main.css": "/malikproject/static/css/main.2ac29162.css",
+    "main.js": "/malikproject/static/js/main.e9e840f7.js",
     "static/media/Screenshot 2022.png": "/malikproject/static/media/Screenshot 2022.7330671fe6836157b5ea.png",
     "static/media/Group 1000004766.png": "/malikproject/static/media/Group 1000004766.b7f6c8560922f7d306f9.png",
     "static/media/slick.svg": "/malikproject/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/malikproject/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/malikproject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/malikproject/index.html",
-    "main.528f7b04.css.map": "/malikproject/static/css/main.528f7b04.css.map",
-    "main.b9ab99fc.js.map": "/malikproject/static/js/main.b9ab99fc.js.map"
+    "main.2ac29162.css.map": "/malikproject/static/css/main.2ac29162.css.map",
+    "main.e9e840f7.js.map": "/malikproject/static/js/main.e9e840f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.528f7b04.css",
-    "static/js/main.b9ab99fc.js"
+    "static/css/main.2ac29162.css",
+    "static/js/main.e9e840f7.js"
   ]
 }
