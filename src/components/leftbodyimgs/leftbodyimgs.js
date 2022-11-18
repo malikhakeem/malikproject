@@ -118,7 +118,6 @@ function leftbodyimgs() {
           </div>
         </div>
       </div>
-      ;
     </div>
   );
 }

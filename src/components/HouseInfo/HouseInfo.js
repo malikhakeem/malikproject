@@ -46,14 +46,12 @@ const HouseInfo = () => {
                       <div className="house-description1">{FundsRequired}</div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info-spec">
+                      <div className="house-info-ment">
                         Sales price per apartment:
                       </div>
-                      <div className="house-description-spec">
-                        <div className="pr">
-                          <span>&#8358;</span>
-                          {SalesPricePerApartment}
-                        </div>
+                      <div className="house-description-ment">
+                        <span>&#8358;</span>
+                        {SalesPricePerApartment}
                       </div>
                     </div>
                     <div className="house-subcont">
@@ -63,14 +61,14 @@ const HouseInfo = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="house-rw-1">
+                  <div className="house-rw-2">
                     <div className="house-subcont">
-                      <div className="house-info-rt">Title:</div>
-                      <div className="house-description-rt">{Title}</div>
+                      <div className="house-info">Title:</div>
+                      <div className="house-description1">{Title}</div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info-rt">Approvals</div>
-                      <div className="house-description-rt">{Approvals}</div>
+                      <div className="house-info">Approvals:</div>
+                      <div className="house-description1">{Approvals}</div>
                     </div>
                     <div className="house-subcont">
                       <div className="house-info-const">Construction:</div>
@@ -79,22 +77,21 @@ const HouseInfo = () => {
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info-rt">Minimum Investment</div>
-                      <div className="house-description-rt">
+                      <div className="house-info">Minimum Investment</div>
+                      <div className="house-description1">
+                        <span>&#8358;</span>
                         {MinimumInvestment}
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info-dian">Custodian:</div>
+                      <div className="house-info-dian">Custodian Bank:</div>
                       <div className="house-description-dian">
                         {CustodianBank}
                       </div>
                     </div>
                     <div className="house-subcont">
-                      <div className="house-info-rt">Legal Advisory:</div>
-                      <div className="house-description-rt">
-                        {LegalAdvisory}
-                      </div>
+                      <div className="house-info">Legal Advisory:</div>
+                      <div className="house-description1">{LegalAdvisory}</div>
                     </div>
                   </div>
 

@@ -8,35 +8,14 @@
     /* justify-content: space-between; */
 }
 
-
-/* .house-rw-3 {
+.house-rw-1 {
     padding-right: 50px;
-} */
-
-.house-description {
-    /* width: 350px; */
-    width: 74.5%;
-    height: auto;
-    font-size: 12px;
-    padding: 10px 0px 10px 10px;
-    background: #D9D9D9;
-    font-weight: 400;
 }
 
 .house-description1 {
     /* width: 350px; */
-    width: 57.335%;
-    height: auto;
-    font-size: 12px;
-    padding: 10px 0px 10px 10px;
-    background: #D9D9D9;
-    font-weight: 400;
-}
-
-.house-description-const {
-    /* width: 350px; */
-    width: 70%;
-    height: auto;
+    width: 68%;
+    /* height: auto; */
     font-size: 12px;
     padding: 10px 0px 10px 10px;
     background: #D9D9D9;
@@ -45,76 +24,32 @@
 
 .house-description-dian {
     /* width: 350px; */
-    width: 70%;
-    height: auto;
+    width: 68%;
+    /* height: auto; */
     font-size: 12px;
     padding: 10px 0px 10px 10px;
     background: #D9D9D9;
     font-weight: 400;
 }
 
-.house-description-rt {
+.house-description-const {
     /* width: 350px; */
-    width: 70%;
-    height: auto;
+    width: 68%;
+    /* height: auto; */
     font-size: 12px;
     padding: 10px 0px 10px 10px;
     background: #D9D9D9;
     font-weight: 400;
 }
 
-.house-description-spec {
-    /* width: 350px;
-    height: 54px;
-    padding: 10px 0px 0px 20px;
-    background: #D9D9D9;
-    font-weight: 400;
-    font-size: 14px; */
+.house-description-ment {
     /* width: 350px; */
-    width: 59%;
-    height: auto;
-    font-size: 12px;
-    /* padding: 10px 92px 10px 10px; */
-    background: #D9D9D9;
-    font-weight: 400;
-}
-
-.house-description-to {
-    /* width: 350px; */
-    width: 74.5%;
-    height: auto;
+    width: 68%;
+    /* height: auto; */
     font-size: 12px;
     padding: 10px 0px 10px 10px;
     background: #D9D9D9;
     font-weight: 400;
-}
-
-.pr {
-    width: 60%;
-    padding: 10px 0px 10px 10px;
-}
-
-.house-info-spec {
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFF4F4;
-    padding: 16px 14px 10px 10px;
-    background: #866A6A;
-    width: 146px;
-    /* height: 32px; */
-}
-
-.house-info-to {
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFF4F4;
-    padding: 18px 0px 18px 10px;
-    width: 181.18px;
-    /* height: 32px; */
-    /* width: 30%;
-    height: 32px; */
-    background: #866A6A;
-    /* height: 32px; */
 }
 
 .house-info {
@@ -122,6 +57,18 @@
     font-size: 12px;
     color: #FFF4F4;
     padding: 10px 0px 10px 10px;
+    width: 161px;
+    /* height: 32px; */
+    /* width: 30%;
+    height: 32px; */
+    background: #866A6A;
+}
+
+.house-info-dian {
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFF4F4;
+    padding: 18px 0px 18px 10px;
     width: 160px;
     /* height: 32px; */
     /* width: 30%;
@@ -133,7 +80,7 @@
     font-weight: 700;
     font-size: 12px;
     color: #FFF4F4;
-    padding: 10px 0px 10px 10px;
+    padding: 5px 0px 5px 10px;
     width: 160px;
     /* height: 32px; */
     /* width: 30%;
@@ -141,33 +88,12 @@
     background: #866A6A;
 }
 
-.house-info-dian {
+.house-info-ment {
     font-weight: 700;
     font-size: 12px;
     color: #FFF4F4;
-    padding: 18px 14px 18px 10px;
-    background: #866A6A;
-    width: 146px;
-}
-
-.house-info-rt {
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFF4F4;
-    padding: 10px 0px 10px 10px;
+    padding: 18px 0px 10px 10px;
     width: 160px;
-    /* height: 32px; */
-    /* width: 30%;
-    height: 32px; */
-    background: #866A6A;
-}
-
-.house-info2 {
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFF4F4;
-    padding: 10px 0px 10px 10px;
-    width: 181.8px;
     /* height: 32px; */
     /* width: 30%;
     height: 32px; */
@@ -181,38 +107,22 @@
 @media (max-width: 1170px) {
     .house-flex {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
     }
-    /* .house-rw-2 {
-        padding-top: 100px;
-    } */
+    .house-container {
+        display: flex;
+        justify-content: center;
+    }
+    .house-rw-1 {
+        padding-bottom: 100px;
+    }
+    .house-rw-1 {
+        padding-right: 0px;
+    }
 }
 
-@media (max-width: 820px) {
-    .house-subcont {
-        /* background: red; */
+@media (max-width: 500px) {
+    .house-info-const {
+        padding: 5px 10px 5px 10px;
     }
-    /* .house-rw-1 {
-        padding-left: 0px;
-    }
-    .house-rw-2 {
-        padding-right: 80px;
-    } */
-}
-
-@media (max-width: 800px) {
-    .house-subcont {
-        /* background: red; */
-    }
-    /* .house-rw-1 {
-        padding-left: 50px;
-    }
-    /* .house-rw-2 {
-        padding-right: 0px;
-    } */
-    /* .house-rw-2 {
-        padding-right: 0px;
-    } */
 }
